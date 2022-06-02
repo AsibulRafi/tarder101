@@ -49,10 +49,7 @@ var navigation = `
                     <a href="trade-glossary.html">TRADE GLOSSARY</a>
                   </li>
                   <li>
-                    <a href="forex-signals.html">FOREX SIGNALS</a>
-                  </li>
-                  <li>
-                    <a href="account-faq.html">ACCUNT FAQ</a>
+                    <a href="account-faq.html">ACCOUNT FAQ</a>
                   </li>
                   <li>
                     <a href="account-funding.html">ACCOUNT FUNDING</a>
@@ -68,13 +65,6 @@ var navigation = `
                   class="nav-btn-open-acc"
                   >Open Account</a
                 >
-              </div>
-              <div class="theme-switcher">
-              <div class="d-block text-left"><small>Choose your site theme:</small></div>
-              <div class="block">
-                  <div class="d-inline-block light-select color-block" onclick="changeTheme('light')"><small>Light</small></div>
-                  <div class="d-inline-block dark-select color-block" onclick="changeTheme('dark')"><small>Dark</small></div>
-                </div>
               </div>
             </ul>
           </div>
@@ -109,7 +99,6 @@ let footer = `
                        <a href="contact-us.html"><span>CONTACT</span></a>
                        <a href="security.html"><span>SECURITY</span></a>
                        <a href="careers.html"><span>CAREERS</span></a>
-                       <a href="license-and-regulation.html"><span>LICENSES AND REGULATIONS</span></a>
                 </div>
                 <div class=" col-12 col-sm-6 col-lg-3  pl-5 mb-4">
                        <p class="mb-1"><b>ASSETS</b></p>

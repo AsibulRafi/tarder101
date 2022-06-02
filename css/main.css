@@ -18,7 +18,7 @@ body {
   padding-bottom: 3em;
 }
 .content-block h1 {
-  color: #303f9f;
+  color: #00004d;
   font-weight: 500;
   text-transform: uppercase;
 }
@@ -151,6 +151,7 @@ body {
   width: 100%;
   display: block;
   margin: 2em 0;
+  background-color: #000;
 }
 
 .contact-line + div .d-felex:last-child {
@@ -300,7 +301,7 @@ body {
   overflow: hidden;
 }
 .accountTypes .accountTypes__single .accountTypes__single-heading {
-  background-color: #faa636;
+  background-color: rgb(0, 100, 250);
   padding: 1rem;
   text-align: center;
   width: 400px;
@@ -314,11 +315,13 @@ body {
   font-weight: 600;
   text-transform: uppercase;
   font-size: 2rem;
+  color: #fff;
 }
 .accountTypes .accountTypes__single .accountTypes__single-heading h4 {
   font-size: 1.4rem;
   font-weight: 300;
   line-height: 30px;
+  color: #fff;
 }
 .accountTypes .accountTypes__single .accountTypes__single-info {
   background-color: #171717;
@@ -379,8 +382,7 @@ nav .content .links {
   margin-top: 5px;
   margin-bottom: 0rem;
 }
-.content .logo a {
-}
+
 .content .links li {
   list-style: none;
   line-height: 70px;
@@ -433,7 +435,7 @@ nav .content .links {
   font-size: 18px;
   text-decoration: none;
   color: #fff;
-  background-color: rgb(0, 100, 250);
+  background-color: #00004d;
   font-weight: 500;
   border-radius: 30px;
   padding: 1rem;
@@ -788,7 +790,7 @@ nav .content .links {
 .numbw24 {
   background-color: white;
   font-size: 30px;
-  color: #303f9f;
+  color: #00004d;
   border-radius: 50%;
   height: 80px;
   width: 80px;
