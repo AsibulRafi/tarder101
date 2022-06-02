@@ -1,0 +1,109 @@
+// navigation
+.theme-switcher
+    background: #212121
+    color: white
+    .light-select::before
+        background-color: white
+        box-shadow: 0px 3px 2px rgba(27, 26, 27, 0.25)
+    .dark-select::before
+        border: 1px solid #0E8CE7
+        background-color: black
+
+// content
+.content-block, #homepage
+    background-color: #100F10
+    color: #E0E0E0
+.white-back
+    background-color: white
+    color: #212529
+
+// contact page
+.contact-link
+    &:link,&:visited
+        color: white
+.contact-line
+    background-color: white
+
+.shadow-block
+    color: #4f4f4f
+.steps-block
+    background-color: #100F10
+    color: white
+.grad
+    background: #161616
+    background: -moz-linear-gradient(top,  #161616 0%, #5a5a5a 100%)
+    background: -webkit-linear-gradient(top,  #161616 0%,#5a5a5a 100%)
+    background: linear-gradient(to bottom,  #161616 0%,#5a5a5a 100%)
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#161616', endColorstr='#5a5a5a',GradientType=0 )
+.steps-block
+    &:hover
+        .nimber
+            .count
+                background: #5a5a5a
+                background: -moz-linear-gradient(top,  #5a5a5a 0%, #161616 100%)
+                background: -webkit-linear-gradient(top,  #5a5a5a 0%,#161616 100%)
+                background: linear-gradient(to bottom,  #5a5a5a 0%,#161616 100%)
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5a5a5a', endColorstr='#161616',GradientType=0 )
+    .count
+        color: white
+        background: #161616
+        background: -moz-linear-gradient(top,  #161616 0%, #5a5a5a 100%)
+        background: -webkit-linear-gradient(top,  #161616 0%,#5a5a5a 100%)
+        background: linear-gradient(to bottom,  #161616 0%,#5a5a5a 100%)
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#161616', endColorstr='#5a5a5a',GradientType=0 )
+    a
+        &:link, &:visited, &:hover
+            color: white
+.border-tb
+    border-color: white
+.big-text
+    color: white
+.border-trade:first-child
+    & > div:nth-child(1) .blocksy-img
+        background-image: url('../img/icons_11.png')
+    & > div:nth-child(2) .blocksy-img
+        background-image: url('../img/icons_22.png')
+    & > div:nth-child(3) .blocksy-img
+        background-image: url('../img/icons_33.png')
+    & > div:nth-child(4) .blocksy-img
+        background-image: url('../img/icons_44.png')
+.border-trade:last-child
+    & > div:nth-child(1) .blocksy-img
+        background-image: url('../img/icons_55.png')
+    & > div:nth-child(2) .blocksy-img
+        background-image: url('../img/icons_67.png')
+    & > div:nth-child(3) .blocksy-img
+        background-image: url('../img/icons_77.png')
+    & > div:nth-child(4) .blocksy-img
+        background-image: url('../img/icons_88.png')
+.border-blocker
+    border: 1px solid white
+// footer
+#footer
+    background-image: url('../img/footer.png')
+    color: white
+    a
+        span::after
+            background-color: white
+        &:link, &:visited
+            color: white
+        &:hover
+            color: white
+    &::before
+        background: -webkit-linear-gradient(bottom, rgba(33, 33, 33, 0.4), rgba(33, 33, 33, 0.4))
+        background: -o-linear-gradient(bottom, rgba(33, 33, 33, 0.4), rgba(33, 33, 33, 0.4))
+        background: linear-gradient(to top, rgba(33, 33, 33, 0.4), rgba(33, 33, 33, 0.4))
+.sprey-table  .table thead th
+    vertical-align: bottom
+    border-bottom: 2px solid #FFFFFF
+.sprey-table  .table-bordered td, .table-bordered th
+    border: 1px solid #FFFFFF
+.table
+    color: white!important
+    border-color: white
+    tr td:first-child, tr td:last-child
+        background-color: #212121
+    tr:nth-child(odd) td
+        background-color: #1B1A1B
+    tr:first-child td:nth-child(2), tr:first-child td:nth-child(3)
+        background-color: transparent

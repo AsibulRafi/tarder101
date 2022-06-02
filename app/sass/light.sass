@@ -1,0 +1,113 @@
+// navigation
+#navigation
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+.theme-switcher
+	background: #FFFFFF
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+	.light-select::before
+		background-color: white
+		border: 1px solid #0E8CE7
+		box-shadow: 0px 3px 2px rgba(27, 26, 27, 0.25)
+	.dark-select::before
+		background-color: black
+
+// content
+.content-block
+	background-color: white
+	color: #333
+	margin-top: .5em
+
+.contact-link
+	&:link,&:visited
+		color: #333
+.contact-line
+    background-color: #303F9F
+.big-text
+	background: #F2F2F2
+.border-tb
+    border-color: #4788C7!important
+.grad
+	background: #fafafa
+	background: -moz-linear-gradient(top,  #fafafa 0%, #e2e2e2 100%)
+	background: -webkit-linear-gradient(top,  #fafafa 0%,#e2e2e2 100%)
+	background: linear-gradient(to bottom,  #fafafa 0%,#e2e2e2 100%)
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#e2e2e2',GradientType=0 )
+.steps-block
+	&:hover
+		.nimber
+			.count
+				background: #e2e2e2
+				background: -moz-linear-gradient(top,  #e2e2e2 0%, #fafafa 100%)
+				background: -webkit-linear-gradient(top,  #e2e2e2 0%,#fafafa 100%)
+				background: linear-gradient(to bottom,  #e2e2e2 0%,#fafafa 100%)
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fafafa',GradientType=0 )
+		.grad
+			background: #e2e2e2
+			background: -moz-linear-gradient(top,  #e2e2e2 0%, #fafafa 100%)
+			background: -webkit-linear-gradient(top,  #e2e2e2 0%,#fafafa 100%)
+			background: linear-gradient(to bottom,  #e2e2e2 0%,#fafafa 100%)
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fafafa',GradientType=0 )
+
+	.count
+		color: #303F9F
+		background: #fafafa
+		background: -moz-linear-gradient(top,  #fafafa 0%, #e2e2e2 100%)
+		background: -webkit-linear-gradient(top,  #fafafa 0%,#e2e2e2 100%)
+		background: linear-gradient(to bottom,  #fafafa 0%,#e2e2e2 100%)
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#e2e2e2',GradientType=0 )
+		&:before 
+				border-color: #303F9F
+	a
+		&:link, &:visited, &:hover
+			color: #333
+.text
+	h6
+		color: #303F9F
+.border-trade:nth-child(1)
+    &  > div:first-child .blocksy-img
+        background-image: url('../img/icons_1.png')
+    &  > div:nth-child(2) .blocksy-img
+        background-image: url('../img/icons_2.png')
+    &  > div:nth-child(3) .blocksy-img
+        background-image: url('../img/icons_3.png')
+    &  > div:nth-child(4) .blocksy-img
+        background-image: url('../img/icons_4.png')
+.border-trade:nth-child(2)
+    & > div:nth-child(1) .blocksy-img
+        background-image: url('../img/icons_5.png')
+    & > div:nth-child(2) .blocksy-img
+        background-image: url('../img/icons_6.png')
+    & > div:nth-child(3) .blocksy-img
+        background-image: url('../img/icons_7.png')
+    & > div:nth-child(4) .blocksy-img
+        background-image: url('../img/icons_8.png')
+.border-blocker
+	border: 1px solid #212121
+// footer
+#footer
+	background-image: url('../img/footer2.png')
+	color: white
+	a
+		span::after
+			background-color: white
+		&:link, &:visited
+			color: white
+		&:hover
+			color: white
+	&::before
+		background: -webkit-linear-gradient(bottom, rgba(33, 33, 33, 0.4), rgba(33, 33, 33, 0.4))
+		background: -o-linear-gradient(bottom, rgba(33, 33, 33, 0.4), rgba(33, 33, 33, 0.4))
+		background: linear-gradient(to top, rgba(33, 33, 33, 0.4), rgba(33, 33, 33, 0.4))
+.sprey-table  .table thead th
+	vertical-align: bottom
+	border-bottom: 2px solid #333
+.sprey-table  .table-bordered td, .table-bordered th
+	border: 1px solid #333
+.table
+	border-color: #212529
+	tr td:first-child, tr td:last-child
+		background-color: #EFEFEF
+	tr:nth-child(odd) td
+		background-color: #E7E7E7
+	tr:first-child td:nth-child(2), tr:first-child td:nth-child(3)
+		background-color: white

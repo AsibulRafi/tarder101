@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display:400,700&display=swap');
+body
+    min-width: 300px
+    font-family: Red Hat Display
+
+@keyframes hoverlinks
+    from
+        width: 0px
+    to
+        width: 100%
+
+.content-block
+    padding:
+        top: 3em
+        bottom: 3em
+    h1
+        color: #303F9F
+        font-weight: 500
+        text-transform: uppercase
+    .content-link
+        &:hover
+            text-decoration: none
+            color: #3F51B5
+.border-trade
+    .blocksy-img
+        height: 70px
+        width: 70px
+        display: block
+        position: relative
+        background-size: calc(contain - 10px)
+        background-position: center
+        background-repeat: no-repeat
+        &:before
+            content: ''
+            border-width: 1px
+            border-style: solid
+            display: block
+            width: calc(100% + 10px)
+            height: calc(100% + 10px)
+            margin-top: -10px
+            margin-left: -10px
+            position: absolute
+    p
+        margin:
+            bottom: 1.5rem
+            left: .7rem
+            right: .7rem
+            top: 1rem
+    .border-blocker
+        height: 100%
+.content-list
+    list-style: none
+    padding-left: 25px
+    li:before
+        content: ''
+        width: 15px
+        height: 15px
+        position: absolute
+        margin-left: -25px
+        display: block
+        background-color: #757575
+        margin-top: 5px
+
+.blue-bumber-block
+    background-color: #3F51B5
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+    color: white
+    font-size: 25px
+    font-weight: bold
+    text-align: right
+    padding-right: .2em
+
+.faq-title
+    background-color: #3F51B5
+    color: white
+    padding:
+        top: .9em
+        bottom: .9em
+    h6
+        font-weight: bold
+        margin-bottom: 0
+    .white-bloxy
+        width: 10px
+        height: 10px
+        background-color: white
+        margin: auto
+.term-list
+    list-style: none
+    li::before
+        content: ''
+        height: 15px
+        width: 15px
+        display: block
+        background-color: #C4C4C4
+        position: absolute
+        margin-top: 4px
+        margin-left: -40px
+.contact-line
+    height: 1px
+    width: 100%
+    display: block
+    margin: 2em 0
+.contact-line + div .d-felex:last-child
+    padding-top: 11px
+.blue-number
+    text-align: center
+    color: white
+    background-color: #3F51B5
+    height: 100%
+    font-size: 16px
+    display: flex
+    justify-content: center
+
+// blue button sign up
+.sing-up-btn
+    background-color: #3F51B5
+    transition: .3s
+    color: white
+    border: 1.5px solid #3F51B5
+    border-radius: 0
+    padding: .8em 2em
+    -webkit-box-shadow: 0px 5px 16px 0px rgba(68,127,255,0.2)
+    -moz-box-shadow: 0px 5px 16px 0px rgba(68,127,255,0.2)
+    box-shadow: 0px 5px 16px 0px rgba(68,127,255,0.2)
+    font-size: 15px
+    &:hover
+        background-color: transparent
+        color: #3F51B5
+.main-color
+    color: #3F51B5
+.white-btn
+    background-color: white
+    border: 1px solid #FFFFFF
+    box-sizing: border-box
+    box-shadow: 0px 10px 16px rgba(68, 138, 255, 0.26), 0px 4px 6px rgba(0, 0, 0, 0.06)
+    color: #3F51B5
+    transform: .3s
+    &:hover
+        background-color: transparent
+        color: white
+.shadow-block
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+    margin-bottom: 5em
+    background-color: white
+    padding:
+        bottom: 3em
+    h5
+        color: #3F51B5
+        font-weight: bold
+        padding-top: 2.5rem
+    .blue-block
+        background-color: #3F51B5
+        display: block
+        width: 100%
+        height: 50px
+.sshadow-block
+    background: #FFFFFF
+    border: 1px solid #AAA1AA
+    box-sizing: border-box
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+    padding-top: 1em
+    padding-bottom: 1.5em
+.table
+    border-width: 1px
+    border-style: solid
+    i
+        color: #3F51B5
+.table-btn
+    padding: 13px 32px
+    display: block
+    min-width: 193px
+.tere
+    color: #3F51B5
+    font-weight: bold
+    font-size: 27px
+.account-table
+    text-align: center
+    td:first-child p
+        text-align: left 
+// hover on links
+.super-hover
+    text-decoration: none
+    p
+        &::after
+            content: ''
+            width: 0px
+            height: 1px
+            margin: auto
+            transition: .2s
+            display: block
+            background-color: #3F51B5
+    &:hover
+        p
+            &::after
+                animation-duration: .3s
+                animation-name: hoverlinks
+                width: auto
+
+    // width: 10px
+
+
