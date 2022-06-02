@@ -7,7 +7,7 @@ var navigation = `
           <label for="show-menu" class="menu-icon"
             ><i class="fas fa-bars"></i
           ></label>
-          <div class="logo"><a href="/">
+          <div class="logo"><a href="index.html">
           <img src="img/logo.png" alt="logo" /></a></div>
           <div class="content">
             <ul class="links">
