@@ -17,7 +17,7 @@ var navigation = `
                 <label for="show-accounts">ACCOUNTS</label>
                 <ul>
                   <li>
-                    <a href="trade-with-us.html">TRADE WITH TRADERS1O1</a>
+                    <a href="trade-with-us.html">TRADE WITH TRADERS101</a>
                   </li>
                   <li>
                     <a href="account-types.html">ACCOUNT TYPES</a>
@@ -88,35 +88,24 @@ let footer = `
 <div class="container footer-menu">
           <div class="row py-4">
 
-            <div class=" col-12 col-sm-6 col-lg-3 pl-5 mb-4">
-                       <p class="mb-1"><b>ACCOUNT</b></p>
-                       <a href="https://client.traders1o1.com/"><span>LOG IN</span></a>
-                       <a href="https://client.traders1o1.com/register/"><span>SIGN UP</span></a>
-                </div>
                <div class=" col-12 col-sm-6 col-lg-3  pl-5 mb-4">
                        <p class="mb-1"><b>ABOUT US</b></p>
                        <a href="about-us.html"><span>ABOUT US</span></a>
-                       <a href="contact-us.html"><span>CONTACT</span></a>
-                       <a href="security.html"><span>SECURITY</span></a>
-                       <a href="careers.html"><span>CAREERS</span></a>
+                       <a href="contact-us.html"><span>CONTACT US</span></a>
                 </div>
-                <div class=" col-12 col-sm-6 col-lg-3  pl-5 mb-4">
-                       <p class="mb-1"><b>ASSETS</b></p>
-                       <a href="forex.html"><span>FOREX</span></a>
-                       <a href="futures.html"><span>FUTURES</span></a>
-                       <a href="commodities.html"><span>COMMODITIES</span></a>
-                       <a href="indices.html"><span>INDICES</span></a>
-                       <a href="stocks.html"><span>STOCKS CFD</span></a>
-                       <a href="algo-trading.html"><span>ALGO TRADING</span></a>
+               <div class=" col-12 col-sm-6 col-lg-3  pl-5 mb-4">
+                       <p class="mb-1"><b>ACCOUNTS TYPES</b></p>
+                       <a href="account-types.html"><span>ACCOUNTS TYPES</span></a>
                 </div>
+               <div class=" col-12 col-sm-6 col-lg-3  pl-5 mb-4">
+                       <p class="mb-1"><b>PLATFORMS</b></p>
+                       <a href="web-trader.html"><span>WEB TRADER</span></a>
+                </div>
+
                 <div class=" col-12 col-sm-6 col-lg-3  pl-5 mb-4">
                       <p class="mb-1"><b> RESOURCES</b></p>
-                       <a href="faq.html"><span> FAQ</span></a>
                         <a href="terms-and-conditions.html"><span>TERMS AND CONDITIONS</span></a>
-                        <a href="risk-disclosure.html"><span>RISK DISCLOSURE</span></a>
                         <a href="privacy-policy.html"><span>PRIVACY POLICY</span></a>
-                        <a href="anti-money-laundering.html"><span>ANTI-MONEY LAUNDERING</span></a>
-                        <a href="kyc-policy.html"><span>KYC POLICY</span></a>
                 </div>
 
            </div>

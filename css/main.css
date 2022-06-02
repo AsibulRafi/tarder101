@@ -439,6 +439,7 @@ nav .content .links {
   font-weight: 500;
   border-radius: 30px;
   padding: 1rem;
+  border: 1px solid #fff;
 }
 /* Dropdown Menu code start */
 .content .links ul {
